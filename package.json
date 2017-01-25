@@ -1,0 +1,20 @@
+{
+    "name": "csv-testing",
+    "description": "sample project",
+    "version": "1.0.0",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/krishnakumarvs/csv_node_sample"
+    },
+    "license": "MIT",
+    "files": [],
+    "dependencies": {
+        "dotenv": "",
+        "fs": ""
+    },
+    "devDependencies": {},
+    "scripts": {},
+    "engines": {
+        "node": ">=4.3"
+    }
+}
