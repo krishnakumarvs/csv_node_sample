@@ -1,20 +1,25 @@
 {
-    "name": "csv-testing",
-    "description": "sample project",
-    "version": "1.0.0",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/krishnakumarvs/csv_node_sample"
-    },
-    "license": "MIT",
-    "files": [],
-    "dependencies": {
-        "dotenv": "",
-        "fs": ""
-    },
-    "devDependencies": {},
-    "scripts": {},
-    "engines": {
-        "node": ">=4.3"
-    }
+  "name": "csv-testing",
+  "description": "sample project",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/krishnakumarvs/csv_node_sample"
+  },
+  "license": "MIT",
+  "files": [],
+  "dependencies": {
+    "csv": "^1.1.0",
+    "dotenv": "",
+    "fs": "",
+    "http": "0.0.0",
+    "util": "^0.10.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=4.3"
+  }
 }
